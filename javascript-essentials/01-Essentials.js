@@ -6,7 +6,7 @@ In file:
     let prompt = require('prompt-sync')()
 */
 
-const prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')(); // 💡 imp. : call the inner function before use.
 
 let userName = prompt("Enter your Name: ");
 
