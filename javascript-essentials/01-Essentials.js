@@ -8,8 +8,8 @@ In file:
 
 const prompt = require('prompt-sync')(); // 💡 imp. : call the inner function before use.
 
-let userName = prompt("Enter your Name: ");
+let userName = prompt("Enter your Name: "); // The program pauses here until the user presses Enter
 
-let age = prompt("Enter your age: ");
+let age = prompt("Enter your age: "); // The program pauses here until the user presses Enter
 
 console.log(`${userName} and ${age} year old.`);
