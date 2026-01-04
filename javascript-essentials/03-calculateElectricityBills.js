@@ -65,7 +65,7 @@ function calculateElectricityBill(unit) {
         remainingUnit = 100;
     }
 
-    totalBill += unit * 4.2;
+    totalBill += remainingUnit * 4.2;
     return totalBill.toFixed(1);
 }
 
